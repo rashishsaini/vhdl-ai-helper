@@ -1,0 +1,154 @@
+{
+  "agents": [
+    {
+      "name": "vhdl-code-reviewer",
+      "type": "specialized",
+      "description": "Specialized agent for reviewing VHDL code quality, syntax, and best practices",
+      "purpose": "Review VHDL code for syntax errors, design patterns, best practices, and potential issues",
+      "capabilities": [
+        "Syntax validation and error detection",
+        "Code style and formatting review",
+        "Design pattern analysis",
+        "Port and signal declaration verification",
+        "Type safety checks",
+        "Clock and reset signal handling review",
+        "FSM logic validation"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Edit",
+        "Bash"
+      ],
+      "best_for": [
+        "Reviewing VHDL source files for errors",
+        "Ensuring code follows best practices",
+        "Validating entity and architecture declarations",
+        "Checking signal and port definitions",
+        "Analyzing control flow and state machines"
+      ],
+      "instructions": "Focus on VHDL-specific syntax and design patterns. Check for common issues like missing semicolons, incorrect port declarations, type mismatches, and design anti-patterns. Provide actionable feedback on code improvements."
+    },
+    {
+      "name": "simulation-analyzer",
+      "type": "specialized",
+      "description": "Agent specialized in analyzing simulation logs and test results from XSIM",
+      "purpose": "Parse and analyze XSIM simulation output, identify failures, and extract relevant metrics",
+      "capabilities": [
+        "Simulation log parsing",
+        "Error and warning extraction",
+        "Test result analysis",
+        "Wave signal interpretation",
+        "Timing analysis from simulation",
+        "Assertion failure detection",
+        "Performance metric extraction"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Bash"
+      ],
+      "best_for": [
+        "Analyzing simulation logs for errors",
+        "Extracting test results and metrics",
+        "Identifying simulation failures",
+        "Analyzing timing and performance data",
+        "Detecting assertion failures in testbenches"
+      ],
+      "instructions": "Parse XSIM log files and simulation output. Extract key information about failures, warnings, timing measurements, and test assertions. Provide clear summaries of simulation results and identify patterns in failures."
+    },
+    {
+      "name": "testbench-generator",
+      "type": "specialized",
+      "description": "Agent focused on generating and optimizing VHDL testbenches",
+      "purpose": "Create and improve VHDL testbenches with comprehensive test cases and assertions",
+      "capabilities": [
+        "Testbench structure generation",
+        "Test case creation",
+        "Assertion and verification generation",
+        "Edge case identification",
+        "Clock and reset generation",
+        "Input stimulus generation",
+        "Output verification logic"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash"
+      ],
+      "best_for": [
+        "Creating new testbenches from entity descriptions",
+        "Adding test cases to existing testbenches",
+        "Generating assertions and checks",
+        "Creating edge case test scenarios",
+        "Improving testbench coverage"
+      ],
+      "instructions": "Generate VHDL testbenches with proper entity instantiation, clock generation, stimulus application, and assertion-based verification. Ensure testbenches are self-checking and include edge cases. Follow XSIM compatibility guidelines."
+    },
+    {
+      "name": "performance-optimizer",
+      "type": "specialized",
+      "description": "Agent specialized in analyzing and optimizing timing and resource usage",
+      "purpose": "Analyze VHDL designs for timing, resource usage, and provide optimization recommendations",
+      "capabilities": [
+        "Timing analysis and bottleneck identification",
+        "Resource usage evaluation (LUTs, FFs, DSPs)",
+        "Latency calculation",
+        "Throughput analysis",
+        "Optimization recommendation generation",
+        "Constraint analysis",
+        "Performance metric tracking"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Bash"
+      ],
+      "best_for": [
+        "Analyzing synthesis reports for timing violations",
+        "Identifying critical paths",
+        "Optimizing for resource usage",
+        "Evaluating design latency and throughput",
+        "Recommending pipeline and parallelization strategies"
+      ],
+      "instructions": "Analyze VHDL designs and synthesis reports for performance characteristics. Identify critical paths, resource bottlenecks, and optimization opportunities. Provide specific recommendations for improving timing and resource efficiency."
+    }
+  ],
+  "agent_workflows": {
+    "code_review_workflow": {
+      "description": "Complete code review workflow for VHDL designs",
+      "steps": [
+        {
+          "agent": "vhdl-code-reviewer",
+          "task": "Review VHDL syntax and design patterns"
+        },
+        {
+          "agent": "testbench-generator",
+          "task": "Enhance testbench coverage"
+        },
+        {
+          "agent": "simulation-analyzer",
+          "task": "Analyze simulation results"
+        }
+      ]
+    },
+    "optimization_workflow": {
+      "description": "Performance optimization workflow",
+      "steps": [
+        {
+          "agent": "simulation-analyzer",
+          "task": "Extract performance metrics from simulation"
+        },
+        {
+          "agent": "performance-optimizer",
+          "task": "Analyze and recommend optimizations"
+        },
+        {
+          "agent": "vhdl-code-reviewer",
+          "task": "Review optimized code"
+        }
+      ]
+    }
+  }
+}

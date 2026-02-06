@@ -1,0 +1,273 @@
+--- /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/comparison/adam_update_unit_ghdl_filtered.txt	2025-12-06 15:44:06.506211784 +0530
++++ /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/comparison/adam_update_unit_vivado_filtered.txt	2025-12-06 15:44:06.508552219 +0530
+@@ -1,110 +1,160 @@
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: IN port "one_minus_beta1" must be connected (or have a default value) [-Wport]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: port "one_minus_beta1" of entity "adam_update_unit" is not bound [-Wbinding]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:16:14:warning: (in default configuration of adam_update_unit_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: IN port "one_minus_beta2" must be connected (or have a default value) [-Wport]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: port "one_minus_beta2" of entity "adam_update_unit" is not bound [-Wbinding]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:16:14:warning: (in default configuration of adam_update_unit_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: IN port "one_minus_beta1" must be connected (or have a default value) [-Wport]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: port "one_minus_beta1" of entity "adam_update_unit" is not bound [-Wbinding]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:16:14:warning: (in default configuration of adam_update_unit_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: IN port "one_minus_beta2" must be connected (or have a default value) [-Wport]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:88:5:warning: port "one_minus_beta2" of entity "adam_update_unit" is not bound [-Wbinding]
+-    DUT: adam_update_unit
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:16:14:warning: (in default configuration of adam_update_unit_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:124:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:125:9:@0ms:(report note): Starting adam_update_unit testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:126:9:@0ms:(report note): Testing complete Adam update pipeline
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:127:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:135:9:@30ns:(report note): TEST: 10-step Adam optimization sequence
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@995ns:(report note):   Step 1: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@2095ns:(report note):   Step 2: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@3195ns:(report note):   Step 3: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@4305ns:(report note):   Step 4: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@5415ns:(report note):   Step 5: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@6525ns:(report note):   Step 6: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@7635ns:(report note):   Step 7: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@8755ns:(report note):   Step 8: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@9875ns:(report note):   Step 9: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:165:13:@10995ns:(report note):   Step 10: m=0.0 v=0.0 w=0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:174:9:@11095ns:(assertion error): Weight should decrease with positive gradients
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:178:9:@11095ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:179:9:@11095ns:(report note): OK INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:180:9:@11095ns:(report note): adam_update_unit testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:181:9:@11095ns:(report note): Complete Adam pipeline validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:182:9:@11095ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:130:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:131:9:@0ms:(report note): Starting adam_update_unit testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:132:9:@0ms:(report note): Testing complete Adam update pipeline
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:133:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:141:9:@30ns:(report note): TEST: 10-step Adam optimization sequence
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@855ns:(report note):   Step 1: m=9.765625000000007e-4 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@1815ns:(report note):   Step 2: m=2.8076171875000017e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@2775ns:(report note):   Step 3: m=5.3710937500000035e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@3745ns:(report note):   Step 4: m=8.666992187500005e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@4715ns:(report note):   Step 5: m=1.2695312500000009e-2 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@5685ns:(report note):   Step 6: m=1.733398437500001e-2 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@6655ns:(report note):   Step 7: m=2.2460937500000014e-2 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@7635ns:(report note):   Step 8: m=2.8076171875000017e-2 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@8615ns:(report note):   Step 9: m=3.405761718750002e-2 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@9595ns:(report note):   Step 10: m=4.052734375000003e-2 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:180:9:@9695ns:(assertion error): Weight should decrease with positive gradients
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:184:9:@9695ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:185:9:@9695ns:(report note): OK INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:186:9:@9695ns:(report note): adam_update_unit testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:187:9:@9695ns:(report note): Complete Adam pipeline validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:188:9:@9695ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:130:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:131:9:@0ms:(report note): Starting adam_update_unit testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:132:9:@0ms:(report note): Testing complete Adam update pipeline
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:133:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:141:9:@30ns:(report note): TEST: 10-step Adam optimization sequence
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@935ns:(report note):   Step 1: m=9.765625000000007e-4 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@1975ns:(report note):   Step 2: m=2.8076171875000017e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@3015ns:(report note):   Step 3: m=5.3710937500000035e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@4065ns:(report note):   Step 4: m=8.666992187500005e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@5115ns:(report note):   Step 5: m=1.2695312500000009e-2 v=0.0 w=9.998779296875007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@6165ns:(report note):   Step 6: m=1.733398437500001e-2 v=0.0 w=9.997558593750007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@7215ns:(report note):   Step 7: m=2.2460937500000014e-2 v=0.0 w=9.996337890625007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@8275ns:(report note):   Step 8: m=2.8076171875000017e-2 v=0.0 w=9.995117187500007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@9335ns:(report note):   Step 9: m=3.405761718750002e-2 v=0.0 w=9.993896484375007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@10395ns:(report note):   Step 10: m=4.052734375000003e-2 v=0.0 w=9.991455078125007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:184:9:@10495ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:185:9:@10495ns:(report note): OK INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:186:9:@10495ns:(report note): adam_update_unit testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:187:9:@10495ns:(report note): Complete Adam pipeline validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:188:9:@10495ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:130:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:131:9:@0ms:(report note): Starting adam_update_unit testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:132:9:@0ms:(report note): Testing complete Adam update pipeline
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:133:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:141:9:@30ns:(report note): TEST: 10-step Adam optimization sequence
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@935ns:(report note):   Step 1: m=9.765625000000007e-4 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@1975ns:(report note):   Step 2: m=2.8076171875000017e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@3015ns:(report note):   Step 3: m=5.3710937500000035e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@4065ns:(report note):   Step 4: m=8.666992187500005e-3 v=0.0 w=1.0000000000000007
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@5115ns:(report note):   Step 5: m=1.2695312500000009e-2 v=0.0 w=9.998779296875007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@6165ns:(report note):   Step 6: m=1.733398437500001e-2 v=0.0 w=9.997558593750007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@7215ns:(report note):   Step 7: m=2.2460937500000014e-2 v=0.0 w=9.996337890625007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@8275ns:(report note):   Step 8: m=2.8076171875000017e-2 v=0.0 w=9.995117187500007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@9335ns:(report note):   Step 9: m=3.405761718750002e-2 v=0.0 w=9.993896484375007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:171:13:@10395ns:(report note):   Step 10: m=4.052734375000003e-2 v=0.0 w=9.991455078125007e-1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:184:9:@10495ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:185:9:@10495ns:(report note): OK INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:186:9:@10495ns:(report note): adam_update_unit testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:187:9:@10495ns:(report note): Complete Adam pipeline validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd:188:9:@10495ns:(report note): ========================================
++Vivado Simulator v2025.1.0
++Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++Running: /home/arunupscee/vivado/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab -debug typical -top adam_update_unit_tb -snapshot adam_update_unit_tb_snapshot 
++Multi-threading is on. Using 14 slave threads.
++    LIBRARY_PATH
++Starting static elaboration
++Completed static elaboration
++Starting simulation data flow analysis
++Completed simulation data flow analysis
++Time Resolution for simulation is 1ps
++Compiling package std.standard
++Compiling package std.textio
++Compiling package ieee.std_logic_1164
++Compiling package ieee.numeric_std
++Compiling package ieee.math_real
++Compiling architecture rtl of entity work.moment_update_unit [moment_update_unit_default]
++Compiling architecture rtl of entity work.power_unit [power_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [\reciprocal_unit(num_iterations=...]
++Compiling architecture rtl of entity work.division_unit [\division_unit(num_iterations=13...]
++Compiling architecture rtl of entity work.bias_correction_unit [bias_correction_unit_default]
++Compiling architecture rtl of entity work.sqrt_unit [sqrt_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [reciprocal_unit_default]
++Compiling architecture rtl of entity work.division_unit [division_unit_default]
++Compiling architecture rtl of entity work.adaptive_lr_unit [adaptive_lr_unit_default]
++Compiling architecture rtl of entity work.adam_update_unit [adam_update_unit_default]
++Compiling architecture testbench of entity work.adam_update_unit_tb
++Built simulation snapshot adam_update_unit_tb_snapshot
++
++****** xsim v2025.1 (64-bit)
++  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
++  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
++  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
++  **** Start of session at: Sat Dec  6 15:42:22 2025
++    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++
++source xsim.dir/adam_update_unit_tb_snapshot/xsim_script.tcl
++Time resolution is 1 ps
++source /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/vivado/adam_update_unit_tb_sim.tcl
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: Starting adam_update_unit testbench
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: Testing complete Adam update pipeline
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: TEST: 10-step Adam optimization sequence
++Time: 30 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 1: m=9.765625e-04 v=0.000000e+00 w=1.000000e+00
++Time: 935 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 2: m=2.807617e-03 v=0.000000e+00 w=1.000000e+00
++Time: 1975 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 3: m=5.371094e-03 v=0.000000e+00 w=1.000000e+00
++Time: 3015 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 4: m=8.666992e-03 v=0.000000e+00 w=1.000000e+00
++Time: 4065 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 5: m=1.269531e-02 v=0.000000e+00 w=9.998779e-01
++Time: 5115 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 6: m=1.733398e-02 v=0.000000e+00 w=9.997559e-01
++Time: 6165 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 7: m=2.246094e-02 v=0.000000e+00 w=9.996338e-01
++Time: 7215 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 8: m=2.807617e-02 v=0.000000e+00 w=9.995117e-01
++Time: 8275 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 9: m=3.405762e-02 v=0.000000e+00 w=9.993896e-01
++Time: 9335 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 10: m=4.052734e-02 v=0.000000e+00 w=9.991455e-01
++Time: 10395 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: ========================================
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: OK INTEGRATION TEST PASSED
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: adam_update_unit testbench complete
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: Complete Adam pipeline validated!
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: ========================================
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Vivado Simulator v2025.1.0
++Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++Running: /home/arunupscee/vivado/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab -debug typical -top adam_update_unit_tb -snapshot adam_update_unit_tb_snapshot 
++Multi-threading is on. Using 14 slave threads.
++    LIBRARY_PATH
++Starting static elaboration
++Completed static elaboration
++Starting simulation data flow analysis
++Completed simulation data flow analysis
++Time Resolution for simulation is 1ps
++Compiling package std.standard
++Compiling package std.textio
++Compiling package ieee.std_logic_1164
++Compiling package ieee.numeric_std
++Compiling package ieee.math_real
++Compiling architecture rtl of entity work.moment_update_unit [moment_update_unit_default]
++Compiling architecture rtl of entity work.power_unit [power_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [\reciprocal_unit(num_iterations=...]
++Compiling architecture rtl of entity work.division_unit [\division_unit(num_iterations=13...]
++Compiling architecture rtl of entity work.bias_correction_unit [bias_correction_unit_default]
++Compiling architecture rtl of entity work.sqrt_unit [sqrt_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [reciprocal_unit_default]
++Compiling architecture rtl of entity work.division_unit [division_unit_default]
++Compiling architecture rtl of entity work.adaptive_lr_unit [adaptive_lr_unit_default]
++Compiling architecture rtl of entity work.adam_update_unit [adam_update_unit_default]
++Compiling architecture testbench of entity work.adam_update_unit_tb
++Built simulation snapshot adam_update_unit_tb_snapshot
++
++****** xsim v2025.1 (64-bit)
++  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
++  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
++  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
++  **** Start of session at: Sat Dec  6 15:44:04 2025
++    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++
++source xsim.dir/adam_update_unit_tb_snapshot/xsim_script.tcl
++Time resolution is 1 ps
++source /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/vivado/adam_update_unit_tb_sim.tcl
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: Starting adam_update_unit testbench
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: Testing complete Adam update pipeline
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: TEST: 10-step Adam optimization sequence
++Time: 30 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 1: m=9.765625e-04 v=0.000000e+00 w=1.000000e+00
++Time: 935 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 2: m=2.807617e-03 v=0.000000e+00 w=1.000000e+00
++Time: 1975 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 3: m=5.371094e-03 v=0.000000e+00 w=1.000000e+00
++Time: 3015 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 4: m=8.666992e-03 v=0.000000e+00 w=1.000000e+00
++Time: 4065 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 5: m=1.269531e-02 v=0.000000e+00 w=9.998779e-01
++Time: 5115 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 6: m=1.733398e-02 v=0.000000e+00 w=9.997559e-01
++Time: 6165 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 7: m=2.246094e-02 v=0.000000e+00 w=9.996338e-01
++Time: 7215 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 8: m=2.807617e-02 v=0.000000e+00 w=9.995117e-01
++Time: 8275 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 9: m=3.405762e-02 v=0.000000e+00 w=9.993896e-01
++Time: 9335 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note:   Step 10: m=4.052734e-02 v=0.000000e+00 w=9.991455e-01
++Time: 10395 ns  Iteration: 3  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: ========================================
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: OK INTEGRATION TEST PASSED
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: adam_update_unit testbench complete
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: Complete Adam pipeline validated!
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd
++Note: ========================================
++Time: 10495 ns  Iteration: 0  Process: /adam_update_unit_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_update_unit_tb.vhd

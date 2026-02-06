@@ -1,0 +1,140 @@
+================================================================================
+VERIFICATION REPORT: saturation_unit
+================================================================================
+Date: 2025-11-26
+Tool: Xilinx Vivado 2025.1 (XVHDL/XSIM)
+VHDL Standard: VHDL-2008
+
+================================================================================
+1. FILE INFORMATION
+================================================================================
+Source File:   saturation_unit.vhd
+Testbench:     saturation_unit_tb.vhd
+Location:      Neuron/Neuron.srcs/sources_1/new/
+
+================================================================================
+2. MODULE DESCRIPTION
+================================================================================
+Purpose: Clamps input value to Q2.13 representable range
+Type:    Pure combinational logic (no clock required)
+
+Fixed-Point Format: Q2.13 (16-bit signed)
+  - Range: [-4.0, +3.9998779296875]
+  - Min:   0x8000 = -32768 = -4.0
+  - Max:   0x7FFF = +32767 = +3.9998779296875
+
+Use Cases:
+  - Clamp intermediate results after operations
+  - Prevent overflow in activation functions
+  - Ensure valid range before storage
+
+================================================================================
+3. INTERFACE
+================================================================================
+Generics:
+  INPUT_WIDTH  : integer := 20    -- Wider input (e.g., from additions)
+  OUTPUT_WIDTH : integer := 16    -- Q2.13 output
+  SAT_MAX      : integer := 32767 -- +3.9999 in Q2.13
+  SAT_MIN      : integer := -32768 -- -4.0 in Q2.13
+
+Ports:
+  data_in       : in  signed(INPUT_WIDTH-1 downto 0)   -- Input (wider precision)
+  data_out      : out signed(OUTPUT_WIDTH-1 downto 0)  -- Output (clamped)
+  saturated_pos : out std_logic  -- Positive saturation flag
+  saturated_neg : out std_logic  -- Negative saturation flag
+  saturated     : out std_logic  -- Any saturation flag
+
+================================================================================
+4. COMPILATION RESULTS
+================================================================================
+Status: PASSED
+
+Command: xvhdl --2008 saturation_unit.vhd
+Output:
+  INFO: [VRFC 10-163] Analyzing VHDL file "saturation_unit.vhd" into library work
+  INFO: [VRFC 10-3107] analyzing entity 'saturation_unit'
+
+Errors:   0
+Warnings: 0
+
+================================================================================
+5. SIMULATION RESULTS
+================================================================================
+Status: ALL 25 TESTS PASSED
+
+Test Groups:
+  Group 1 - Pass-through (no saturation): 9/9 PASSED
+    - Zero value
+    - Small positive/negative
+    - 1.0, -1.0, 2.0, -2.0 in Q2.13
+    - Boundary values (max/min Q2.13)
+
+  Group 2 - Positive overflow: 5/5 PASSED
+    - Just above max (32768 -> 32767)
+    - Moderate overflow (40000 -> 32767)
+    - Large overflow (65536 -> 32767)
+    - Very large overflow (100000 -> 32767)
+    - Max 20-bit positive (524287 -> 32767)
+
+  Group 3 - Negative overflow: 5/5 PASSED
+    - Just below min (-32769 -> -32768)
+    - Moderate underflow (-40000 -> -32768)
+    - Large underflow (-65536 -> -32768)
+    - Very large underflow (-100000 -> -32768)
+    - Max 20-bit negative (-524288 -> -32768)
+
+  Group 4 - Typical NN values: 6/6 PASSED
+    - Activation outputs (0.5, 0.75)
+    - Large accumulator overflow/underflow
+    - Small gradient values
+
+Simulation Time: 540 ns
+
+================================================================================
+6. ERROR CATEGORIZATION
+================================================================================
+Category             | Count | Status
+---------------------|-------|------------------
+Syntax errors        |   0   | None found
+Port mismatches      |   0   | None found
+Missing signals      |   0   | None found
+Type mismatches      |   0   | None found
+Timing violations    |   0   | N/A (combinational)
+Resource issues      |   0   | Not checked
+Functional bugs      |   0   | All tests pass
+
+================================================================================
+7. ARCHITECTURE NOTES
+================================================================================
+Implementation:
+  - Uses concurrent signal assignments for overflow detection
+  - Combinational process for output multiplexing
+  - Extended constants for proper width comparison
+  - Clean separation of detection and output logic
+
+Key Signals:
+  - is_pos_overflow: Detects data_in > MAX_EXTENDED
+  - is_neg_overflow: Detects data_in < MIN_EXTENDED
+
+Output Logic:
+  - Positive overflow: Output = SAT_MAX
+  - Negative overflow: Output = SAT_MIN
+  - Normal: Output = resize(data_in, OUTPUT_WIDTH)
+
+================================================================================
+8. RECOMMENDATIONS
+================================================================================
+Status: READY FOR SYNTHESIS AND INTEGRATION
+
+The module is well-designed with:
+  [x] Proper VHDL-2008 compliance
+  [x] Configurable generics for flexibility
+  [x] Status flags for monitoring saturation events
+  [x] Comprehensive testbench with self-checking
+  [x] Clear documentation and comments
+
+No fixes required.
+
+================================================================================
+END OF REPORT
+================================================================================

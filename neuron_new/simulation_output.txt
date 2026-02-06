@@ -1,0 +1,16 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Dec  5 19:48:08 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_neural_network_4841_iris_sim/xsim_script.tcl
+# xsim {tb_neural_network_4841_iris_sim} -autoloadwcfg -tclbatch {10ms} -runall
+Time resolution is 1 ps
+WARNING: [Simtcl 6-25] Warning: Both '-runall' and '-tclbatch' were specified. The '-runall' was ignored
+source 10ms
+couldn't read file "10ms": no such file or directory
+INFO: [Common 17-206] Exiting xsim at Fri Dec  5 19:48:10 2025...

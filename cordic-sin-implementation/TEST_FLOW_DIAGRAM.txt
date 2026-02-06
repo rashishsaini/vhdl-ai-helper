@@ -1,0 +1,524 @@
+================================================================================
+           ENHANCED CORDIC TESTBENCH - TEST FLOW DIAGRAM
+================================================================================
+
+                            SIMULATION START
+                                   |
+                                   v
+        ┌──────────────────────────────────────────────────┐
+        │         INITIALIZATION & SETUP                   │
+        │  • Clock generation starts                       │
+        │  • DUT instantiation                             │
+        │  • FSM monitor starts (concurrent)               │
+        │  • Concurrent assertions activate                │
+        └──────────────────────────────────────────────────┘
+                                   |
+                                   v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 1: SYNCHRONOUS RESET VERIFICATION         ║
+        ╚══════════════════════════════════════════════════╝
+                                   |
+                    ┌──────────────┴──────────────┐
+                    v                             v
+        ┌────────────────────┐       ┌────────────────────┐
+        │  Reset in IDLE     │       │ Reset Mid-Compute  │
+        │  • Assert reset    │       │ • Start operation  │
+        │  • Wait 5 cycles   │       │ • Wait 5 cycles    │
+        │  • Release on clk  │       │ • Assert reset     │
+        │  • Check ready=1   │       │ • Check recovery   │
+        └────────────────────┘       └────────────────────┘
+                    │                             │
+                    └──────────────┬──────────────┘
+                                   v
+                    ✓ Synchronous reset verified
+                                   |
+                                   v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 2: FSM STATE TRANSITION & INIT STATE      ║
+        ╚══════════════════════════════════════════════════╝
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Wait for IDLE state    │
+                    │   ready=1, done=0        │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Assert start=1         │
+                    │   Trigger computation    │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Enter INIT state       │
+                    │   ready=0, done=0        │◄── NEW STATE!
+                    │   [FSM Monitor detects]  │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Enter COMPUTING        │
+                    │   ready=0, done=0        │
+                    │   [16 iterations run]    │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Enter OUTPUT_VALID     │
+                    │   ready=1, done=1        │
+                    │   [Results available]    │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Return to IDLE         │
+                    │   ready=1, done=0        │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ✓ All FSM states verified
+                                   |
+                                   v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 3: ITERATION COUNT VERIFICATION           ║
+        ╚══════════════════════════════════════════════════╝
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Start angle=π/3        │
+                    │   Record start_time      │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Wait for done=1        │
+                    │   Record end_time        │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Calculate cycles       │
+                    │   cycles = (end - start) │
+                    │          / CLK_PERIOD    │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ┌──────────────────────────┐
+                    │   Assert cycles = 18     │
+                    │   (1 INIT + 16 COMP +    │
+                    │    1 OUTPUT_VALID)       │
+                    └──────────────────────────┘
+                                   |
+                                   v
+                    ✓ 16 iterations confirmed
+                                   |
+                                   v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 4: EDGE CASE TESTING                      ║
+        ╚══════════════════════════════════════════════════╝
+                                   |
+        ┌──────────────────────────┼──────────────────────────┐
+        v                          v                          v
+  ┌──────────┐            ┌──────────┐              ┌──────────┐
+  │ angle=0  │            │ angle=π/2│              │ angle=π  │
+  │ sin=0    │            │ sin=1    │              │ sin=0    │
+  │ cos=1    │            │ cos=0    │              │ cos=-1   │
+  └──────────┘            └──────────┘              └──────────┘
+        |                          |                          |
+        └──────────────────────────┼──────────────────────────┘
+                                   v
+        ┌──────────────────────────┼──────────────────────────┐
+        v                          v                          v
+  ┌──────────┐            ┌──────────┐              ┌──────────┐
+  │ angle=   │            │ angle=   │              │ angle=   │
+  │ -π/4     │            │ -π/2     │              │ 0.001    │
+  │ Negative │            │ Negative │              │ Tiny     │
+  └──────────┘            └──────────┘              └──────────┘
+        |                          |                          |
+        └──────────────────────────┼──────────────────────────┘
+                                   v
+        ┌──────────────────────────┼──────────────────────────┐
+        v                          v                          v
+  ┌──────────┐            ┌──────────┐
+  │ angle=   │            │ angle=   │
+  │ +0.1     │            │ -0.1     │
+  │ Near 0   │            │ Near 0   │
+  └──────────┘            └──────────┘
+        |                          |
+        └──────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   For each angle:            │
+        │   1. Compute with DUT        │
+        │   2. Compare vs MATH_REAL    │
+        │   3. Check error < 0.005     │
+        │   4. Report PASS/FAIL        │
+        └──────────────────────────────┘
+                    |
+                    v
+        ✓ All edge cases passed
+                    |
+                    v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 5: COMPREHENSIVE ANGLE SWEEP              ║
+        ╚══════════════════════════════════════════════════╝
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Loop i = 0 to 16           │
+        │   angle = i * π / 16         │
+        │                              │
+        │   i=0:  0.0000 rad           │
+        │   i=1:  0.1963 rad           │
+        │   i=2:  0.3927 rad           │
+        │   i=3:  0.5890 rad           │
+        │   ...                        │
+        │   i=16: 3.1416 rad (π)       │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   For each of 17 angles:     │
+        │   • Start computation        │
+        │   • Wait for done            │
+        │   • Extract sin/cos          │
+        │   • Check accuracy           │
+        │   • Accumulate errors        │
+        └──────────────────────────────┘
+                    |
+                    v
+        ✓ Full range sweep complete
+                    |
+                    v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 6: BACK-TO-BACK OPERATIONS                ║
+        ╚══════════════════════════════════════════════════╝
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Loop i = 0 to 4            │
+        │   angle = i * π / 8          │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   For each iteration:        │
+        │   1. Wait for ready=1        │
+        │   2. Assert start=1          │
+        │   3. Verify INIT entered ◄───┼── Critical!
+        │   4. Wait for done=1         │
+        │   5. Check result            │
+        │   6. Repeat immediately      │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Stress test:               │
+        │   • No delays between ops    │
+        │   • INIT must occur each time│
+        │   • No state corruption      │
+        └──────────────────────────────┘
+                    |
+                    v
+        ✓ Back-to-back verified
+                    |
+                    v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 7: PROTOCOL COMPLIANCE                    ║
+        ╚══════════════════════════════════════════════════╝
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Test: Start during busy    │
+        │   1. Start computation       │
+        │   2. Wait 3 cycles           │
+        │   3. Assert start again      │
+        │   4. Check handling          │
+        │      (should ignore/queue)   │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Verify:                    │
+        │   • No crashes               │
+        │   • No state corruption      │
+        │   • Graceful handling        │
+        └──────────────────────────────┘
+                    |
+                    v
+        ✓ Protocol compliance OK
+                    |
+                    v
+        ╔══════════════════════════════════════════════════╗
+        ║  PHASE 8: SIGNAL TIMING VERIFICATION             ║
+        ╚══════════════════════════════════════════════════╝
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Start computation          │
+        │   angle = 0.5 rad            │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Wait for done=1            │
+        │   Detect: Cycle N            │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Wait 1 cycle               │
+        │   Check: done=0 at Cycle N+1 │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Verify:                    │
+        │   • done is 1-cycle pulse    │
+        │   • valid = done always      │
+        │   • Timing correct           │
+        └──────────────────────────────┘
+                    |
+                    v
+        ✓ Signal timing verified
+                    |
+                    v
+        ╔══════════════════════════════════════════════════╗
+        ║  FINAL SUMMARY & REPORTING                       ║
+        ╚══════════════════════════════════════════════════╝
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Collect statistics:        │
+        │   • test_count               │
+        │   • pass_count               │
+        │   • error_count              │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Report phase results:      │
+        │   [PASS] Phase 1: Reset      │
+        │   [PASS] Phase 2: FSM        │
+        │   [PASS] Phase 3: Iterations │
+        │   [PASS] Phase 4: Edge Cases │
+        │   [PASS] Phase 5: Sweep      │
+        │   [PASS] Phase 6: Back-to-Back│
+        │   [PASS] Phase 7: Protocol   │
+        │   [PASS] Phase 8: Timing     │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Final verdict:             │
+        │                              │
+        │   IF error_count = 0:        │
+        │     "ALL TESTS PASSED"       │
+        │   ELSE:                      │
+        │     "TESTS FAILED"           │
+        │     Assert severity failure  │
+        └──────────────────────────────┘
+                    |
+                    v
+        ┌──────────────────────────────┐
+        │   Set test_complete = true   │
+        │   Stop clock generation      │
+        └──────────────────────────────┘
+                    |
+                    v
+                 END SIMULATION
+
+
+================================================================================
+                        CONCURRENT PROCESSES
+================================================================================
+
+While main test executes, these run in parallel:
+
+┌─────────────────────────────────────────────────────────────┐
+│  CLOCK GENERATION PROCESS                                   │
+│  • Runs continuously until test_complete                    │
+│  • Period: 10 ns (100 MHz)                                  │
+│  • Provides timing reference                                │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  FSM MONITOR PROCESS                                        │
+│  • Tracks ready/done signals                                │
+│  • Infers current FSM state                                 │
+│  • Reports state transitions                                │
+│  • Counts cycles per state                                  │
+│  • Output: "[FSM] IDLE -> INIT detected"                    │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  CONCURRENT ASSERTION 1                                     │
+│  • Always checks: done = valid                              │
+│  • Reports immediately if mismatch                          │
+│  • Severity: error                                          │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│  CONCURRENT ASSERTION 2                                     │
+│  • Checks: ready='0' during computation                     │
+│  • Tracks computing_detected flag                           │
+│  • Reports protocol violations                              │
+│  • Severity: error                                          │
+└─────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+                        DATA FLOW PER TEST
+================================================================================
+
+For each angle test:
+
+  Input                Processing              Verification
+  ─────                ──────────              ────────────
+
+  angle_rad ──────► real_to_fixed() ──────► angle_in (DUT)
+                                                  │
+                                                  v
+                                            [DUT COMPUTE]
+                                            INIT → COMPUTE
+                                            (16 iterations)
+                                                  │
+                                                  v
+                                         sin_out, cos_out
+                                                  │
+                                                  v
+                                         fixed_to_real()
+                                                  │
+                     ┌────────────────────────────┴───────────┐
+                     v                                        v
+                sin_real                                  cos_real
+                     │                                        │
+                     v                                        v
+            Compare vs sin(angle_rad)           Compare vs cos(angle_rad)
+                     │                                        │
+                     v                                        v
+               sin_error = |expected - actual|    cos_error = |expected - actual|
+                     │                                        │
+                     └────────────────┬───────────────────────┘
+                                      v
+                              Check: error < 0.005?
+                                      │
+                     ┌────────────────┴────────────────┐
+                     v                                 v
+                   YES                                NO
+                   │                                  │
+                   v                                  v
+              [PASS]                              [FAIL]
+              pass_count++                        error_count++
+                                                  Assert error
+
+
+================================================================================
+                     VERIFICATION COVERAGE MAP
+================================================================================
+
+                 ┌────────────────────────────────────┐
+                 │         DUT FEATURES               │
+                 └────────────────────────────────────┘
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        v                         v                         v
+   ┌────────┐              ┌────────────┐            ┌──────────┐
+   │  FSM   │              │  DATAPATH  │            │ PROTOCOL │
+   └────────┘              └────────────┘            └──────────┘
+        │                         │                         │
+   ┌────┴────┐          ┌─────────┴──────┐         ┌────────┴────────┐
+   v         v          v                v         v                 v
+ IDLE     INIT      x_reg            y_reg      ready            start
+   │         │       (cos)           (sin)        │                 │
+   │         │          │                │        │                 │
+   v         v          v                v        v                 v
+Phase 2   Phase 2   Phase 4,5        Phase 4,5  Phase 1,7       Phase 7
+Phase 6   Phase 6   Accuracy         Accuracy   Handshake       Violation
+          ^^^^                                   Timing          Detection
+          NEW!
+
+ COMPUTING    OUTPUT_VALID        Iteration Count       done/valid
+   │               │                     │                   │
+   v               v                     v                   v
+Phase 2         Phase 2              Phase 3             Phase 8
+FSM Mon         FSM Mon              Cycle Count         Pulse Width
+
+
+================================================================================
+                        TIME BUDGET
+================================================================================
+
+Test Phase              Approx Cycles    Approx Time
+──────────              ─────────────    ───────────
+Initialization                  10         100 ns
+Phase 1: Reset                  40         400 ns
+Phase 2: FSM                    30         300 ns
+Phase 3: Iterations             25         250 ns
+Phase 4: Edge Cases (8)        200       2,000 ns
+Phase 5: Sweep (17)            400       4,000 ns
+Phase 6: Back-to-Back (5)      120       1,200 ns
+Phase 7: Protocol               40         400 ns
+Phase 8: Timing                 25         250 ns
+Summary & Cleanup               10         100 ns
+──────────────────────────────────────────────────
+TOTAL                         ~900      ~9,000 ns (9 μs)
+
+
+================================================================================
+                        ERROR DETECTION FLOW
+================================================================================
+
+                    Error Detected
+                          │
+       ┌──────────────────┼──────────────────┐
+       v                  v                  v
+  Assertion          Accuracy            Cycle Count
+  Failure            Check Failed        Mismatch
+       │                  │                  │
+       v                  v                  v
+  Report to          error_count++       Report to
+  Console            pass_count stays    Console
+  with context       same                with expected
+       │                  │              vs actual
+       └──────────────────┼──────────────────┘
+                          v
+                  Continue testing
+                  (don't abort early)
+                          │
+                          v
+                  Accumulate all errors
+                          │
+                          v
+                  Final Summary shows
+                  total error_count
+                          │
+                          v
+                  IF error_count > 0:
+                    Assert severity failure
+                    (terminates simulation)
+
+
+================================================================================
+                        SUCCESS CRITERIA
+================================================================================
+
+ALL of the following must be true:
+
+  ✓ Phase 1: reset verified (no assertion failures)
+  ✓ Phase 2: All FSM states detected in correct order
+  ✓ Phase 3: Cycle count = 18 (iteration count correct)
+  ✓ Phase 4: All 8 edge cases pass accuracy check
+  ✓ Phase 5: All 17 sweep angles pass accuracy check
+  ✓ Phase 6: All 5 back-to-back ops complete with INIT
+  ✓ Phase 7: Protocol violations handled gracefully
+  ✓ Phase 8: Signal timing correct (1-cycle done pulse)
+  ✓ error_count = 0
+  ✓ No assertion failures in transcript
+
+Result: "OVERALL RESULT: ALL TESTS PASSED"
+
+
+================================================================================

@@ -1,0 +1,871 @@
+--- /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/comparison/adam_optimizer_ghdl_filtered.txt	2025-12-06 15:44:17.873161442 +0530
++++ /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/comparison/adam_optimizer_vivado_filtered.txt	2025-12-06 15:44:17.874161438 +0530
+@@ -1,404 +1,464 @@
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: IN port "one_minus_beta1" must be connected (or have a default value) [-Wport]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: port "one_minus_beta1" of entity "adam_optimizer" is not bound [-Wbinding]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:15:14:warning: (in default configuration of adam_optimizer_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: IN port "one_minus_beta2" must be connected (or have a default value) [-Wport]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: port "one_minus_beta2" of entity "adam_optimizer" is not bound [-Wbinding]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:15:14:warning: (in default configuration of adam_optimizer_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: IN port "one_minus_beta1" must be connected (or have a default value) [-Wport]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: port "one_minus_beta1" of entity "adam_optimizer" is not bound [-Wbinding]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:15:14:warning: (in default configuration of adam_optimizer_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: IN port "one_minus_beta2" must be connected (or have a default value) [-Wport]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:94:5:warning: port "one_minus_beta2" of entity "adam_optimizer" is not bound [-Wbinding]
+-    DUT: adam_optimizer
+-    ^
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:15:14:warning: (in default configuration of adam_optimizer_tb(testbench))
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:151:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:152:9:@0ms:(report note): Starting adam_optimizer testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:153:9:@0ms:(report note): Testing full 13-parameter optimization
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:154:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:168:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:169:13:@30ns:(report note): Optimization Step 1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:170:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:191:13:@13715ns:(report note):   OK Step 1 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@13715ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:168:13:@13815ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:169:13:@13815ns:(report note): Optimization Step 2
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:170:13:@13815ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:191:13:@28015ns:(report note):   OK Step 2 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@28015ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:168:13:@28115ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:169:13:@28115ns:(report note): Optimization Step 3
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:170:13:@28115ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:191:13:@42315ns:(report note):   OK Step 3 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@42315ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:168:13:@42415ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:169:13:@42415ns:(report note): Optimization Step 4
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:170:13:@42415ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:191:13:@56745ns:(report note):   OK Step 4 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@56745ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:168:13:@56845ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:169:13:@56845ns:(report note): Optimization Step 5
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:170:13:@56845ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:191:13:@71175ns:(report note):   OK Step 5 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:195:17:@71175ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:207:9:@71275ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:208:9:@71275ns:(report note): OK SYSTEM INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:209:9:@71275ns:(report note): adam_optimizer testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:210:9:@71275ns:(report note): Full 13-parameter Adam optimizer validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:211:9:@71275ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:157:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:158:9:@0ms:(report note): Starting adam_optimizer testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:159:9:@0ms:(report note): Testing full 13-parameter optimization
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:160:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@30ns:(report note): Optimization Step 1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@11895ns:(report note):   OK Step 1 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@11895ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@11995ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@11995ns:(report note): Optimization Step 2
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@11995ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@24375ns:(report note):   OK Step 2 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@24375ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@24475ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@24475ns:(report note): Optimization Step 3
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@24475ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@36855ns:(report note):   OK Step 3 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@36855ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@36955ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@36955ns:(report note): Optimization Step 4
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@36955ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@49465ns:(report note):   OK Step 4 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@49465ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@49565ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@49565ns:(report note): Optimization Step 5
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@49565ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@62075ns:(report note):   OK Step 5 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@62075ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:213:9:@62175ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:214:9:@62175ns:(report note): OK SYSTEM INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:215:9:@62175ns:(report note): adam_optimizer testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:216:9:@62175ns:(report note): Full 13-parameter Adam optimizer validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:217:9:@62175ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:157:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:158:9:@0ms:(report note): Starting adam_optimizer testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:159:9:@0ms:(report note): Testing full 13-parameter optimization
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:160:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@30ns:(report note): Optimization Step 1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@12935ns:(report note):   OK Step 1 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@13035ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@13035ns:(report note): Optimization Step 2
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@13035ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@26455ns:(report note):   OK Step 2 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@26555ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@26555ns:(report note): Optimization Step 3
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@26555ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@39975ns:(report note):   OK Step 3 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@40075ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@40075ns:(report note): Optimization Step 4
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@40075ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@53625ns:(report note):   OK Step 4 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@53725ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@53725ns:(report note): Optimization Step 5
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@53725ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@67275ns:(report note):   OK Step 5 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:213:9:@67375ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:214:9:@67375ns:(report note): OK SYSTEM INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:215:9:@67375ns:(report note): adam_optimizer testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:216:9:@67375ns:(report note): Full 13-parameter Adam optimizer validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:217:9:@67375ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:157:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:158:9:@0ms:(report note): Starting adam_optimizer testbench
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:159:9:@0ms:(report note): Testing full 13-parameter optimization
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:160:9:@0ms:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@30ns:(report note): Optimization Step 1
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@30ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@12935ns:(report note):   OK Step 1 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@12935ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@13035ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@13035ns:(report note): Optimization Step 2
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@13035ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@26455ns:(report note):   OK Step 2 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@26455ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@26555ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@26555ns:(report note): Optimization Step 3
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@26555ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@39975ns:(report note):   OK Step 3 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@39975ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@40075ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@40075ns:(report note): Optimization Step 4
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@40075ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@53625ns:(report note):   OK Step 4 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@53625ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:174:13:@53725ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:175:13:@53725ns:(report note): Optimization Step 5
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:176:13:@53725ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:197:13:@67275ns:(report note):   OK Step 5 complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 0: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 1: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 2: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 3: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 4: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 5: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 6: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 7: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 8: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 9: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 10: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 11: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:201:17:@67275ns:(report note):     Param 12: 0.0
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:213:9:@67375ns:(report note): ========================================
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:214:9:@67375ns:(report note): OK SYSTEM INTEGRATION TEST PASSED
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:215:9:@67375ns:(report note): adam_optimizer testbench complete
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:216:9:@67375ns:(report note): Full 13-parameter Adam optimizer validated!
+-/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd:217:9:@67375ns:(report note): ========================================
++Vivado Simulator v2025.1.0
++Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++Running: /home/arunupscee/vivado/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab -debug typical -top adam_optimizer_tb -snapshot adam_optimizer_tb_snapshot 
++Multi-threading is on. Using 14 slave threads.
++    LIBRARY_PATH
++Starting static elaboration
++Completed static elaboration
++Starting simulation data flow analysis
++Completed simulation data flow analysis
++Time Resolution for simulation is 1ps
++Compiling package std.standard
++Compiling package std.textio
++Compiling package ieee.std_logic_1164
++Compiling package ieee.numeric_std
++Compiling package ieee.math_real
++Compiling architecture rtl of entity work.moment_register_bank [moment_register_bank_default]
++Compiling architecture rtl of entity work.moment_update_unit [moment_update_unit_default]
++Compiling architecture rtl of entity work.power_unit [power_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [\reciprocal_unit(num_iterations=...]
++Compiling architecture rtl of entity work.division_unit [\division_unit(num_iterations=13...]
++Compiling architecture rtl of entity work.bias_correction_unit [bias_correction_unit_default]
++Compiling architecture rtl of entity work.sqrt_unit [sqrt_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [reciprocal_unit_default]
++Compiling architecture rtl of entity work.division_unit [division_unit_default]
++Compiling architecture rtl of entity work.adaptive_lr_unit [adaptive_lr_unit_default]
++Compiling architecture rtl of entity work.adam_update_unit [adam_update_unit_default]
++Compiling architecture rtl of entity work.adam_optimizer [adam_optimizer_default]
++Compiling architecture testbench of entity work.adam_optimizer_tb
++Built simulation snapshot adam_optimizer_tb_snapshot
++
++****** xsim v2025.1 (64-bit)
++  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
++  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
++  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
++  **** Start of session at: Sat Dec  6 15:42:46 2025
++    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++
++source xsim.dir/adam_optimizer_tb_snapshot/xsim_script.tcl
++Time resolution is 1 ps
++source /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/vivado/adam_optimizer_tb_sim.tcl
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Starting adam_optimizer testbench
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Testing full 13-parameter optimization
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 30 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 1
++Time: 30 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 30 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 1 complete
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 13035 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 2
++Time: 13035 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 13035 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 2 complete
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 26555 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 3
++Time: 26555 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 26555 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 3 complete
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 40075 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 4
++Time: 40075 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 40075 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 4 complete
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 53725 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 5
++Time: 53725 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 53725 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 5 complete
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Error: ERROR: Weights did not update
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: OK SYSTEM INTEGRATION TEST PASSED
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: adam_optimizer testbench complete
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Full 13-parameter Adam optimizer validated!
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Vivado Simulator v2025.1.0
++Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++Running: /home/arunupscee/vivado/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab -debug typical -top adam_optimizer_tb -snapshot adam_optimizer_tb_snapshot 
++Multi-threading is on. Using 14 slave threads.
++    LIBRARY_PATH
++Starting static elaboration
++Completed static elaboration
++Starting simulation data flow analysis
++Completed simulation data flow analysis
++Time Resolution for simulation is 1ps
++Compiling package std.standard
++Compiling package std.textio
++Compiling package ieee.std_logic_1164
++Compiling package ieee.numeric_std
++Compiling package ieee.math_real
++Compiling architecture rtl of entity work.moment_register_bank [moment_register_bank_default]
++Compiling architecture rtl of entity work.moment_update_unit [moment_update_unit_default]
++Compiling architecture rtl of entity work.power_unit [power_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [\reciprocal_unit(num_iterations=...]
++Compiling architecture rtl of entity work.division_unit [\division_unit(num_iterations=13...]
++Compiling architecture rtl of entity work.bias_correction_unit [bias_correction_unit_default]
++Compiling architecture rtl of entity work.sqrt_unit [sqrt_unit_default]
++Compiling architecture rtl of entity work.reciprocal_unit [reciprocal_unit_default]
++Compiling architecture rtl of entity work.division_unit [division_unit_default]
++Compiling architecture rtl of entity work.adaptive_lr_unit [adaptive_lr_unit_default]
++Compiling architecture rtl of entity work.adam_update_unit [adam_update_unit_default]
++Compiling architecture rtl of entity work.adam_optimizer [adam_optimizer_default]
++Compiling architecture testbench of entity work.adam_optimizer_tb
++Built simulation snapshot adam_optimizer_tb_snapshot
++
++****** xsim v2025.1 (64-bit)
++  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
++  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
++  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
++  **** Start of session at: Sat Dec  6 15:44:15 2025
++    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
++    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
++
++source xsim.dir/adam_optimizer_tb_snapshot/xsim_script.tcl
++Time resolution is 1 ps
++source /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/simulation_results/vivado/adam_optimizer_tb_sim.tcl
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Starting adam_optimizer testbench
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Testing full 13-parameter optimization
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 0 ps  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 30 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 1
++Time: 30 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 30 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 1 complete
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 12935 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 13035 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 2
++Time: 13035 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 13035 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 2 complete
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 26455 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 26555 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 3
++Time: 26555 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 26555 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 3 complete
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 39975 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 40075 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 4
++Time: 40075 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 40075 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 4 complete
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 53625 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 53725 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Optimization Step 5
++Time: 53725 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 53725 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:   OK Step 5 complete
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 0: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 1: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 2: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 3: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 4: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 5: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 6: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 7: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 8: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 9: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 10: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 11: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note:     Param 12: 0.000000e+00
++Time: 67275 ns  Iteration: 3  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Error: ERROR: Weights did not update
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: OK SYSTEM INTEGRATION TEST PASSED
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: adam_optimizer testbench complete
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: Full 13-parameter Adam optimizer validated!
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd
++Note: ========================================
++Time: 67375 ns  Iteration: 0  Process: /adam_optimizer_tb/test_process  File: /home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adam_optimizer_tb.vhd

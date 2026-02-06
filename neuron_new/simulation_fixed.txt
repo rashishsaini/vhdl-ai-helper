@@ -1,0 +1,49 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Dec  5 21:25:16 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_neural_network_4841_iris_sim/xsim_script.tcl
+# xsim {tb_neural_network_4841_iris_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   4-8-4-1 Iris Binary Classification
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Task: Setosa vs Non-Setosa
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Samples: 30
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 10: Train Accuracy = 6.250000e+01%
+Time: 50845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 20: Train Accuracy = 6.250000e+01%
+Time: 101165 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 30: Train Accuracy = 6.250000e+01%
+Time: 151525 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 40: Train Accuracy = 6.250000e+01%
+Time: 201885 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 50: Train Accuracy = 6.250000e+01%
+Time: 252245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 252245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Final Results
+Time: 252245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 252245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Training Accuracy: 6.250000e+01%
+Time: 254685 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Test Accuracy: 0.000000e+00%
+Time: 255245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Warning: *** NEEDS IMPROVEMENT: Accuracy below 90% ***
+Time: 255245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 255245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Dec  5 21:25:18 2025...

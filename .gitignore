@@ -1,0 +1,36 @@
+# Vivado build artifacts
+*.wdb
+*.pb
+*.jou
+*.log
+*.o
+*.vcd
+
+# Vivado project directories
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+.Xil/
+xsim.dir/
+
+# Vivado check directory
+vivado_check/
+
+# GHDL build artifacts
+*.ghw
+*.cf
+
+# Temp/backup files
+*.bak
+*.backup
+*.swp
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

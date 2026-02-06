@@ -1,0 +1,215 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Dec  5 21:47:18 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_neural_network_4841_iris_sim/xsim_script.tcl
+# xsim {tb_neural_network_4841_iris_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   4-8-4-1 Iris Binary Classification
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Task: Setosa vs Non-Setosa
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Samples: 30
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 10: Train Accuracy = 6.250000e+01%
+Time: 50845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 20: Train Accuracy = 6.250000e+01%
+Time: 101165 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 30: Train Accuracy = 6.250000e+01%
+Time: 151525 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 40: Train Accuracy = 6.250000e+01%
+Time: 201885 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 50: Train Accuracy = 6.250000e+01%
+Time: 252245 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 60: Train Accuracy = 6.250000e+01%
+Time: 302605 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 70: Train Accuracy = 3.750000e+01%
+Time: 352965 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 80: Train Accuracy = 3.750000e+01%
+Time: 403325 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 90: Train Accuracy = 3.750000e+01%
+Time: 453685 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 100: Train Accuracy = 3.750000e+01%
+Time: 504045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 504045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Final Results
+Time: 504045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 504045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Training Accuracy: 3.750000e+01%
+Time: 506485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Test Accuracy: 1.000000e+02%
+Time: 507045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: *** SUCCESS: Iris classification achieved! ***
+Time: 507045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 507045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 507045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Training Set Detailed Results
+Time: 507045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 507045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 0: output=8192 pred=1 actual=0 [WRONG]
+Time: 507225 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 1: output=8192 pred=1 actual=0 [WRONG]
+Time: 507285 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 2: output=8192 pred=1 actual=0 [WRONG]
+Time: 507345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 3: output=8192 pred=1 actual=0 [WRONG]
+Time: 507485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 4: output=8192 pred=1 actual=0 [WRONG]
+Time: 507545 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 5: output=8192 pred=1 actual=0 [WRONG]
+Time: 507725 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 6: output=8192 pred=1 actual=0 [WRONG]
+Time: 507785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 7: output=8192 pred=1 actual=0 [WRONG]
+Time: 507845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 8: output=8192 pred=1 actual=0 [WRONG]
+Time: 507985 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 9: output=8192 pred=1 actual=0 [WRONG]
+Time: 508045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 10: output=8192 pred=1 actual=0 [WRONG]
+Time: 508225 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 11: output=8192 pred=1 actual=0 [WRONG]
+Time: 508285 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 12: output=8192 pred=1 actual=0 [WRONG]
+Time: 508345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 13: output=8192 pred=1 actual=0 [WRONG]
+Time: 508485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 14: output=8192 pred=1 actual=0 [WRONG]
+Time: 508545 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 15: output=8192 pred=1 actual=1 [MATCH]
+Time: 508725 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 16: output=8192 pred=1 actual=1 [MATCH]
+Time: 508785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 17: output=8192 pred=1 actual=1 [MATCH]
+Time: 508845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 18: output=8192 pred=1 actual=1 [MATCH]
+Time: 508985 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 19: output=8192 pred=1 actual=1 [MATCH]
+Time: 509045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 20: output=8192 pred=1 actual=1 [MATCH]
+Time: 509225 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 21: output=8192 pred=1 actual=1 [MATCH]
+Time: 509285 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 22: output=8192 pred=1 actual=1 [MATCH]
+Time: 509345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 23: output=8192 pred=1 actual=1 [MATCH]
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ----------------------------------------
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Training Accuracy: 9/24 = 3.750000e+01%
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Test Set Detailed Results
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 509485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 24: output=8192 pred=1 actual=1 [MATCH]
+Time: 509545 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 25: output=8192 pred=1 actual=1 [MATCH]
+Time: 509725 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 26: output=8192 pred=1 actual=1 [MATCH]
+Time: 509785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 27: output=8192 pred=1 actual=1 [MATCH]
+Time: 509845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 28: output=8192 pred=1 actual=1 [MATCH]
+Time: 509985 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 29: output=8192 pred=1 actual=1 [MATCH]
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ----------------------------------------
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Test Accuracy: 6/6 = 1.000000e+02%
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Complete Dataset Set Detailed Results
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 510045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 0: output=8192 pred=1 actual=0 [WRONG]
+Time: 510225 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 1: output=8192 pred=1 actual=0 [WRONG]
+Time: 510285 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 2: output=8192 pred=1 actual=0 [WRONG]
+Time: 510345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 3: output=8192 pred=1 actual=0 [WRONG]
+Time: 510485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 4: output=8192 pred=1 actual=0 [WRONG]
+Time: 510545 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 5: output=8192 pred=1 actual=0 [WRONG]
+Time: 510725 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 6: output=8192 pred=1 actual=0 [WRONG]
+Time: 510785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 7: output=8192 pred=1 actual=0 [WRONG]
+Time: 510845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 8: output=8192 pred=1 actual=0 [WRONG]
+Time: 510985 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 9: output=8192 pred=1 actual=0 [WRONG]
+Time: 511045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 10: output=8192 pred=1 actual=0 [WRONG]
+Time: 511225 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 11: output=8192 pred=1 actual=0 [WRONG]
+Time: 511285 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 12: output=8192 pred=1 actual=0 [WRONG]
+Time: 511345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 13: output=8192 pred=1 actual=0 [WRONG]
+Time: 511485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 14: output=8192 pred=1 actual=0 [WRONG]
+Time: 511545 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 15: output=8192 pred=1 actual=1 [MATCH]
+Time: 511725 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 16: output=8192 pred=1 actual=1 [MATCH]
+Time: 511785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 17: output=8192 pred=1 actual=1 [MATCH]
+Time: 511845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 18: output=8192 pred=1 actual=1 [MATCH]
+Time: 511985 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 19: output=8192 pred=1 actual=1 [MATCH]
+Time: 512045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 20: output=8192 pred=1 actual=1 [MATCH]
+Time: 512225 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 21: output=8192 pred=1 actual=1 [MATCH]
+Time: 512285 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 22: output=8192 pred=1 actual=1 [MATCH]
+Time: 512345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 23: output=8192 pred=1 actual=1 [MATCH]
+Time: 512485 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 24: output=8192 pred=1 actual=1 [MATCH]
+Time: 512545 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 25: output=8192 pred=1 actual=1 [MATCH]
+Time: 512725 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 26: output=8192 pred=1 actual=1 [MATCH]
+Time: 512785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 27: output=8192 pred=1 actual=1 [MATCH]
+Time: 512845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 28: output=8192 pred=1 actual=1 [MATCH]
+Time: 512985 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 29: output=8192 pred=1 actual=1 [MATCH]
+Time: 513045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ----------------------------------------
+Time: 513045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Complete Dataset Accuracy: 15/30 = 5.000000e+01%
+Time: 513045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 513045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Dec  5 21:47:21 2025...

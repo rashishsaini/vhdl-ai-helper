@@ -1,0 +1,214 @@
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:44:12:error: identifier "learning_rate" already used for a declaration
+    signal learning_rate : signed(15 downto 0) := LEARNING_RATE;
+           ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:35:14:error: previous declaration: constant "LEARNING_RATE"
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:45:12:error: identifier "epsilon" already used for a declaration
+    signal epsilon       : signed(15 downto 0) := EPSILON;
+           ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:36:14:error: previous declaration: constant "EPSILON"
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:100:22:error: can't match "error" with type severity_level
+            severity error;
+                     ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:109:22:error: can't match "error" with type severity_level
+            severity error;
+                     ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:149:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:150:9:@0ms:(report note): Starting adaptive_lr_unit testbench
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:151:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:159:9:@30ns:(report note): TEST 1: Zero m (update should be zero)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@305ns:(report note):   OK TEST 1 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:162:9:@325ns:(report note): TEST 2: Zero v (uses epsilon only)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:104:9:@455ns:(assertion failure): TEST 2 FAILED: Expected=9.997558593750007e-2 Got=0.0 Error=819 LSBs
+ghdl:error: assertion failed
+ghdl:error: simulation failed
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:149:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:150:9:@0ms:(report note): Starting adaptive_lr_unit testbench
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:151:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:159:9:@30ns:(report note): TEST 1: Zero m (update should be zero)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@305ns:(report note):   OK TEST 1 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:162:9:@325ns:(report note): TEST 2: Zero v (uses epsilon only)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:104:9:@455ns:(assertion failure): TEST 2 FAILED: Expected=9.997558593750007e-2 Got=0.0 Error=819 LSBs
+ghdl:error: assertion failed
+ghdl:error: simulation failed
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:149:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:150:9:@0ms:(report note): Starting adaptive_lr_unit testbench
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:151:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:159:9:@30ns:(report note): TEST 1: Zero m (update should be zero)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@305ns:(report note):   OK TEST 1 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:162:9:@325ns:(report note): TEST 2: Zero v (uses epsilon only)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:104:9:@535ns:(assertion failure): TEST 2 FAILED: Expected=9.997558593750007e-2 Got=3.906250000000003e-3 Error=787 LSBs
+ghdl:error: assertion failed
+ghdl:error: simulation failed
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:149:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:150:9:@0ms:(report note): Starting adaptive_lr_unit testbench
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:151:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:159:9:@30ns:(report note): TEST 1: Zero m (update should be zero)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@305ns:(report note):   OK TEST 1 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:162:9:@325ns:(report note): TEST 2: Zero v (uses epsilon only)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:104:9:@535ns:(assertion failure): TEST 2 FAILED: Expected=9.997558593750007e-2 Got=3.906250000000003e-3 Error=787 LSBs
+ghdl:error: assertion failed
+ghdl:error: simulation failed
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:149:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:150:9:@0ms:(report note): Starting adaptive_lr_unit testbench
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:151:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:159:9:@30ns:(report note): TEST 1: Zero m (update should be zero)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@305ns:(report note):   OK TEST 1 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:162:9:@325ns:(report note): TEST 2: Zero v (uses epsilon only)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@535ns:(report note):   OK TEST 2 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:165:9:@555ns:(report note): TEST 3: Both zero
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@765ns:(report note):   OK TEST 3 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:168:9:@785ns:(report note): TEST 4: Typical values
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@1055ns:(report note):   OK TEST 4 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:171:9:@1075ns:(report note): TEST 5: Negative m
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@1345ns:(report note):   OK TEST 5 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:174:9:@1365ns:(report note): TEST 6: Large v (small update)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@1635ns:(report note):   OK TEST 6 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:177:9:@1655ns:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:178:9:@1655ns:(report note): OK ALL TESTS PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:179:9:@1655ns:(report note): adaptive_lr_unit testbench complete
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:180:9:@1655ns:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:72:16:warning: declaration of "m_in" hides signal "m_in" [-Whide]
+        signal m_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:73:16:warning: declaration of "v_in" hides signal "v_in" [-Whide]
+        signal v_in        : out signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:74:16:warning: declaration of "start" hides signal "start" [-Whide]
+        signal start       : out std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:75:16:warning: declaration of "clk" hides signal "clk" [-Whide]
+        signal clk         : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:76:16:warning: declaration of "done" hides signal "done" [-Whide]
+        signal done        : in std_logic;
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:77:16:warning: declaration of "update_out" hides signal "update_out" [-Whide]
+        signal update_out  : in signed(15 downto 0);
+               ^
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:149:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:150:9:@0ms:(report note): Starting adaptive_lr_unit testbench
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:151:9:@0ms:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:159:9:@30ns:(report note): TEST 1: Zero m (update should be zero)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@305ns:(report note):   OK TEST 1 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:162:9:@325ns:(report note): TEST 2: Zero v (uses epsilon only)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@535ns:(report note):   OK TEST 2 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:165:9:@555ns:(report note): TEST 3: Both zero
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@765ns:(report note):   OK TEST 3 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:168:9:@785ns:(report note): TEST 4: Typical values
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@1055ns:(report note):   OK TEST 4 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:171:9:@1075ns:(report note): TEST 5: Negative m
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@1345ns:(report note):   OK TEST 5 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:174:9:@1365ns:(report note): TEST 6: Large v (small update)
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:112:13:@1635ns:(report note):   OK TEST 6 PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:177:9:@1655ns:(report note): ========================================
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:178:9:@1655ns:(report note): OK ALL TESTS PASSED
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:179:9:@1655ns:(report note): adaptive_lr_unit testbench complete
+/home/arunupscee/Desktop/vhdl-ai-helper/BasicMath/adam_testbenches/adaptive_lr_unit_tb.vhd:180:9:@1655ns:(report note): ========================================

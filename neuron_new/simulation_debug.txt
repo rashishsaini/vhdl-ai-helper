@@ -1,0 +1,219 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Dec  5 21:51:10 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_neural_network_4841_iris_sim/xsim_script.tcl
+# xsim {tb_neural_network_4841_iris_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   4-8-4-1 Iris Binary Classification
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Task: Setosa vs Non-Setosa
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Samples: 30
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 150 ns  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:  BEFORE TRAINING - Testing first 2 samples
+Time: 150 ns  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 150 ns  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 0 BEFORE: output_data=-1472 output_class=0 (label=0, expected negative)
+Time: 645 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Sample 15 BEFORE: output_data=-1472 output_class=0 (label=8192, expected positive)
+Time: 705 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 705 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:  TRAINING - 2 epochs on first 2 samples
+Time: 705 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 705 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 1 Sample 0: output_data=-1472 output_class=0
+Time: 1345 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 1 Sample 15: output_data=-1472 output_class=0
+Time: 1405 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 2 Sample 0: output_data=-1469 output_class=0
+Time: 1785 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Epoch 2 Sample 15: output_data=-1469 output_class=0
+Time: 1845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 1845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Final Results
+Time: 1845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 1845 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Training Accuracy: 6.250000e+01%
+Time: 3965 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Test Accuracy: 0.000000e+00%
+Time: 4525 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Warning: *** NEEDS IMPROVEMENT: Accuracy below 90% ***
+Time: 4525 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 4525 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 4525 ns  Iteration: 1
+Note:   Training Set Detailed Results
+Time: 4525 ns  Iteration: 1
+Note: ========================================
+Time: 4525 ns  Iteration: 1
+Note: Sample 0: output=0 pred=0 actual=0 [MATCH]
+Time: 4585 ns  Iteration: 1
+Note: Sample 1: output=0 pred=0 actual=0 [MATCH]
+Time: 4645 ns  Iteration: 1
+Note: Sample 2: output=0 pred=0 actual=0 [MATCH]
+Time: 4825 ns  Iteration: 1
+Note: Sample 3: output=0 pred=0 actual=0 [MATCH]
+Time: 4885 ns  Iteration: 1
+Note: Sample 4: output=0 pred=0 actual=0 [MATCH]
+Time: 4945 ns  Iteration: 1
+Note: Sample 5: output=0 pred=0 actual=0 [MATCH]
+Time: 5005 ns  Iteration: 1
+Note: Sample 6: output=0 pred=0 actual=0 [MATCH]
+Time: 5145 ns  Iteration: 1
+Note: Sample 7: output=0 pred=0 actual=0 [MATCH]
+Time: 5205 ns  Iteration: 1
+Note: Sample 8: output=0 pred=0 actual=0 [MATCH]
+Time: 5265 ns  Iteration: 1
+Note: Sample 9: output=0 pred=0 actual=0 [MATCH]
+Time: 5445 ns  Iteration: 1
+Note: Sample 10: output=0 pred=0 actual=0 [MATCH]
+Time: 5505 ns  Iteration: 1
+Note: Sample 11: output=0 pred=0 actual=0 [MATCH]
+Time: 5565 ns  Iteration: 1
+Note: Sample 12: output=0 pred=0 actual=0 [MATCH]
+Time: 5625 ns  Iteration: 1
+Note: Sample 13: output=0 pred=0 actual=0 [MATCH]
+Time: 5765 ns  Iteration: 1
+Note: Sample 14: output=0 pred=0 actual=0 [MATCH]
+Time: 5825 ns  Iteration: 1
+Note: Sample 15: output=0 pred=0 actual=1 [WRONG]
+Time: 5885 ns  Iteration: 1
+Note: Sample 16: output=0 pred=0 actual=1 [WRONG]
+Time: 6065 ns  Iteration: 1
+Note: Sample 17: output=0 pred=0 actual=1 [WRONG]
+Time: 6125 ns  Iteration: 1
+Note: Sample 18: output=0 pred=0 actual=1 [WRONG]
+Time: 6185 ns  Iteration: 1
+Note: Sample 19: output=0 pred=0 actual=1 [WRONG]
+Time: 6245 ns  Iteration: 1
+Note: Sample 20: output=0 pred=0 actual=1 [WRONG]
+Time: 6385 ns  Iteration: 1
+Note: Sample 21: output=0 pred=0 actual=1 [WRONG]
+Time: 6445 ns  Iteration: 1
+Note: Sample 22: output=0 pred=0 actual=1 [WRONG]
+Time: 6505 ns  Iteration: 1
+Note: Sample 23: output=0 pred=0 actual=1 [WRONG]
+Time: 6685 ns  Iteration: 1
+Note: ----------------------------------------
+Time: 6685 ns  Iteration: 1
+Note: Training Accuracy: 15/24 = 6.250000e+01%
+Time: 6685 ns  Iteration: 1
+Note: ========================================
+Time: 6685 ns  Iteration: 1
+Note: ========================================
+Time: 6685 ns  Iteration: 1
+Note:   Test Set Detailed Results
+Time: 6685 ns  Iteration: 1
+Note: ========================================
+Time: 6685 ns  Iteration: 1
+Note: Sample 24: output=0 pred=0 actual=1 [WRONG]
+Time: 6745 ns  Iteration: 1
+Note: Sample 25: output=0 pred=0 actual=1 [WRONG]
+Time: 6805 ns  Iteration: 1
+Note: Sample 26: output=0 pred=0 actual=1 [WRONG]
+Time: 6865 ns  Iteration: 1
+Note: Sample 27: output=0 pred=0 actual=1 [WRONG]
+Time: 7005 ns  Iteration: 1
+Note: Sample 28: output=0 pred=0 actual=1 [WRONG]
+Time: 7065 ns  Iteration: 1
+Note: Sample 29: output=0 pred=0 actual=1 [WRONG]
+Time: 7125 ns  Iteration: 1
+Note: ----------------------------------------
+Time: 7125 ns  Iteration: 1
+Note: Test Accuracy: 0/6 = 0.000000e+00%
+Time: 7125 ns  Iteration: 1
+Note: ========================================
+Time: 7125 ns  Iteration: 1
+Note: ========================================
+Time: 7125 ns  Iteration: 1
+Note:   Complete Dataset Set Detailed Results
+Time: 7125 ns  Iteration: 1
+Note: ========================================
+Time: 7125 ns  Iteration: 1
+Note: Sample 0: output=0 pred=0 actual=0 [MATCH]
+Time: 7305 ns  Iteration: 1
+Note: Sample 1: output=0 pred=0 actual=0 [MATCH]
+Time: 7365 ns  Iteration: 1
+Note: Sample 2: output=0 pred=0 actual=0 [MATCH]
+Time: 7425 ns  Iteration: 1
+Note: Sample 3: output=0 pred=0 actual=0 [MATCH]
+Time: 7485 ns  Iteration: 1
+Note: Sample 4: output=0 pred=0 actual=0 [MATCH]
+Time: 7625 ns  Iteration: 1
+Note: Sample 5: output=0 pred=0 actual=0 [MATCH]
+Time: 7685 ns  Iteration: 1
+Note: Sample 6: output=0 pred=0 actual=0 [MATCH]
+Time: 7745 ns  Iteration: 1
+Note: Sample 7: output=0 pred=0 actual=0 [MATCH]
+Time: 7925 ns  Iteration: 1
+Note: Sample 8: output=0 pred=0 actual=0 [MATCH]
+Time: 7985 ns  Iteration: 1
+Note: Sample 9: output=0 pred=0 actual=0 [MATCH]
+Time: 8045 ns  Iteration: 1
+Note: Sample 10: output=0 pred=0 actual=0 [MATCH]
+Time: 8105 ns  Iteration: 1
+Note: Sample 11: output=0 pred=0 actual=0 [MATCH]
+Time: 8245 ns  Iteration: 1
+Note: Sample 12: output=0 pred=0 actual=0 [MATCH]
+Time: 8305 ns  Iteration: 1
+Note: Sample 13: output=0 pred=0 actual=0 [MATCH]
+Time: 8365 ns  Iteration: 1
+Note: Sample 14: output=0 pred=0 actual=0 [MATCH]
+Time: 8545 ns  Iteration: 1
+Note: Sample 15: output=0 pred=0 actual=1 [WRONG]
+Time: 8605 ns  Iteration: 1
+Note: Sample 16: output=0 pred=0 actual=1 [WRONG]
+Time: 8665 ns  Iteration: 1
+Note: Sample 17: output=0 pred=0 actual=1 [WRONG]
+Time: 8725 ns  Iteration: 1
+Note: Sample 18: output=0 pred=0 actual=1 [WRONG]
+Time: 8865 ns  Iteration: 1
+Note: Sample 19: output=0 pred=0 actual=1 [WRONG]
+Time: 8925 ns  Iteration: 1
+Note: Sample 20: output=0 pred=0 actual=1 [WRONG]
+Time: 8985 ns  Iteration: 1
+Note: Sample 21: output=0 pred=0 actual=1 [WRONG]
+Time: 9165 ns  Iteration: 1
+Note: Sample 22: output=0 pred=0 actual=1 [WRONG]
+Time: 9225 ns  Iteration: 1
+Note: Sample 23: output=0 pred=0 actual=1 [WRONG]
+Time: 9285 ns  Iteration: 1
+Note: Sample 24: output=0 pred=0 actual=1 [WRONG]
+Time: 9345 ns  Iteration: 1
+Note: Sample 25: output=0 pred=0 actual=1 [WRONG]
+Time: 9485 ns  Iteration: 1
+Note: Sample 26: output=0 pred=0 actual=1 [WRONG]
+Time: 9545 ns  Iteration: 1
+Note: Sample 27: output=0 pred=0 actual=1 [WRONG]
+Time: 9605 ns  Iteration: 1
+Note: Sample 28: output=0 pred=0 actual=1 [WRONG]
+Time: 9785 ns  Iteration: 1
+Note: Sample 29: output=0 pred=0 actual=1 [WRONG]
+Time: 9845 ns  Iteration: 1
+Note: ----------------------------------------
+Time: 9845 ns  Iteration: 1
+Note: Complete Dataset Accuracy: 15/30 = 5.000000e+01%
+Time: 9845 ns  Iteration: 1
+Note: ========================================
+Time: 9845 ns  Iteration: 1
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Dec  5 21:51:12 2025...

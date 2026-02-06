@@ -1,0 +1,2450 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Dec  5 19:48:29 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_neural_network_4841_iris_sim/xsim_script.tcl
+# xsim {tb_neural_network_4841_iris_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   4-8-4-1 Iris Binary Classification
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Task: Setosa vs Non-Setosa
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Samples: 30
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 0 ps  Iteration: 0  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Error: Update pass timeout!
+Time: 15935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 31035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 46135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 61235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 76335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 91435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 106535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 121635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 136735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 151835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 166935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 182035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 197135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 212235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 227335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 242435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 257535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 272635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 287735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 302835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 317935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 333035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 348135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 363235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 378335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 393435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 408535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 423635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 438735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 453835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 468935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 484035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 499135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 514235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 529335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 544435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 559535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 574635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 589735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 604835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 619935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 635035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 650135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 665235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 680335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 695435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 710535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 725635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 740735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 755835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 770935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 786035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 801135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 816235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 831335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 846435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 861535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 876635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 891735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 906835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 921935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 937035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 952135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 967235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 982335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 997435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1012535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1027635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1042735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1057835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1072935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1088035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1103135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1118235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1133335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1148435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1163535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1178635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1193735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1208835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1223935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1239035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1254135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1269235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1284335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1299435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1314535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1329635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1344735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1359835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1374935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1390035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1405135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1420235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1435335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1450435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1465535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1480635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1495735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1510835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1525935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1541035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1556135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1571235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1586335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1601435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1616535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1631635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1646735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1661835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1676935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1692035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1707135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1722235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1737335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1752435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1767535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1782635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1797735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1812835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1827935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1843035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1858135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1873235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1888335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1903435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1918535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1933635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1948735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1963835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1978935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 1994035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2009135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2024235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2039335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2054435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2069535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2084635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2099735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2114835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2129935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2145035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2160135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2175235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2190335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2205435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2220535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2235635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2250735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2265835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2280935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2296035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2311135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2326235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2341335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2356435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2371535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2386635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2401735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2416835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2431935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2447035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2462135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2477235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2492335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2507435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2522535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2537635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2552735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2567835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2582935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2598035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2613135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2628235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2643335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2658435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2673535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2688635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2703735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2718835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2733935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2749035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2764135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2779235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2794335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2809435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2824535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2839635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2854735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2869835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2884935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2900035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2915135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2930235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2945335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2960435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2975535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 2990635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3005735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3020835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3035935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3051035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3066135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3081235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3096335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3111435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3126535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3141635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3156735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3171835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3186935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3202035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3217135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3232235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3247335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3262435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3277535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3292635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3307735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3322835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3337935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3353035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3368135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3383235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3398335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3413435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3428535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3443635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3458735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3473835 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3488935 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3504035 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3519135 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3534235 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3549335 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3564435 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3579535 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3594635 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3609735 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3624835 ns  Iteration: 1
+Note: Epoch 10: Train Accuracy = 6.250000e+01%
+Time: 3627085 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Error: Update pass timeout!
+Time: 3642175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3657275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3672375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3687475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3702575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3717675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3732775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3747875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3762975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3778075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3793175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3808275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3823375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3838475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3853575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3868675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3883775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3898875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3913975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3929075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3944175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3959275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3974375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 3989475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4004575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4019675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4034775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4049875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4064975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4080075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4095175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4110275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4125375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4140475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4155575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4170675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4185775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4200875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4215975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4231075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4246175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4261275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4276375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4291475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4306575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4321675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4336775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4351875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4366975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4382075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4397175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4412275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4427375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4442475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4457575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4472675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4487775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4502875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4517975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4533075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4548175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4563275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4578375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4593475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4608575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4623675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4638775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4653875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4668975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4684075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4699175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4714275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4729375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4744475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4759575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4774675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4789775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4804875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4819975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4835075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4850175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4865275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4880375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4895475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4910575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4925675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4940775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4955875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4970975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 4986075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5001175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5016275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5031375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5046475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5061575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5076675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5091775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5106875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5121975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5137075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5152175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5167275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5182375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5197475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5212575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5227675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5242775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5257875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5272975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5288075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5303175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5318275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5333375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5348475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5363575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5378675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5393775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5408875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5423975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5439075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5454175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5469275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5484375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5499475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5514575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5529675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5544775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5559875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5574975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5590075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5605175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5620275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5635375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5650475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5665575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5680675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5695775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5710875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5725975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5741075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5756175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5771275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5786375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5801475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5816575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5831675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5846775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5861875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5876975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5892075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5907175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5922275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5937375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5952475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5967575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5982675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 5997775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6012875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6027975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6043075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6058175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6073275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6088375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6103475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6118575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6133675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6148775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6163875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6178975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6194075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6209175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6224275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6239375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6254475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6269575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6284675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6299775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6314875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6329975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6345075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6360175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6375275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6390375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6405475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6420575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6435675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6450775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6465875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6480975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6496075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6511175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6526275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6541375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6556475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6571575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6586675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6601775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6616875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6631975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6647075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6662175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6677275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6692375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6707475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6722575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6737675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6752775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6767875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6782975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6798075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6813175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6828275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6843375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6858475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6873575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6888675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6903775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6918875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6933975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6949075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6964175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6979275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 6994375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7009475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7024575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7039675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7054775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7069875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7084975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7100075 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7115175 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7130275 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7145375 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7160475 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7175575 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7190675 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7205775 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7220875 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7235975 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7251075 ns  Iteration: 1
+Note: Epoch 20: Train Accuracy = 6.250000e+01%
+Time: 7253325 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Error: Update pass timeout!
+Time: 7268415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7283515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7298615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7313715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7328815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7343915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7359015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7374115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7389215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7404315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7419415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7434515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7449615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7464715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7479815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7494915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7510015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7525115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7540215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7555315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7570415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7585515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7600615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7615715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7630815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7645915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7661015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7676115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7691215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7706315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7721415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7736515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7751615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7766715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7781815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7796915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7812015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7827115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7842215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7857315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7872415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7887515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7902615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7917715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7932815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7947915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7963015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7978115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 7993215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8008315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8023415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8038515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8053615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8068715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8083815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8098915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8114015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8129115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8144215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8159315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8174415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8189515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8204615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8219715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8234815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8249915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8265015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8280115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8295215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8310315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8325415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8340515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8355615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8370715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8385815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8400915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8416015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8431115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8446215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8461315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8476415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8491515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8506615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8521715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8536815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8551915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8567015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8582115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8597215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8612315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8627415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8642515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8657615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8672715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8687815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8702915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8718015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8733115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8748215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8763315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8778415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8793515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8808615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8823715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8838815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8853915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8869015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8884115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8899215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8914315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8929415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8944515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8959615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8974715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 8989815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9004915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9020015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9035115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9050215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9065315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9080415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9095515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9110615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9125715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9140815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9155915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9171015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9186115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9201215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9216315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9231415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9246515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9261615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9276715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9291815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9306915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9322015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9337115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9352215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9367315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9382415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9397515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9412615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9427715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9442815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9457915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9473015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9488115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9503215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9518315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9533415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9548515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9563615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9578715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9593815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9608915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9624015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9639115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9654215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9669315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9684415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9699515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9714615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9729715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9744815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9759915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9775015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9790115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9805215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9820315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9835415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9850515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9865615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9880715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9895815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9910915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9926015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9941115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9956215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9971315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 9986415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10001515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10016615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10031715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10046815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10061915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10077015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10092115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10107215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10122315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10137415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10152515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10167615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10182715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10197815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10212915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10228015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10243115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10258215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10273315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10288415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10303515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10318615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10333715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10348815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10363915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10379015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10394115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10409215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10424315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10439415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10454515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10469615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10484715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10499815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10514915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10530015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10545115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10560215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10575315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10590415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10605515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10620615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10635715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10650815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10665915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10681015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10696115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10711215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10726315 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10741415 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10756515 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10771615 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10786715 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10801815 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10816915 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10832015 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10847115 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10862215 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10877315 ns  Iteration: 1
+Note: Epoch 30: Train Accuracy = 6.250000e+01%
+Time: 10879565 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Error: Update pass timeout!
+Time: 10894655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10909755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10924855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10939955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10955055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10970155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 10985255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11000355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11015455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11030555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11045655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11060755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11075855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11090955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11106055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11121155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11136255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11151355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11166455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11181555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11196655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11211755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11226855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11241955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11257055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11272155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11287255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11302355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11317455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11332555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11347655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11362755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11377855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11392955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11408055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11423155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11438255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11453355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11468455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11483555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11498655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11513755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11528855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11543955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11559055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11574155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11589255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11604355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11619455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11634555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11649655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11664755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11679855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11694955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11710055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11725155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11740255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11755355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11770455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11785555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11800655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11815755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11830855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11845955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11861055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11876155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11891255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11906355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11921455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11936555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11951655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11966755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11981855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 11996955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12012055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12027155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12042255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12057355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12072455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12087555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12102655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12117755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12132855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12147955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12163055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12178155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12193255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12208355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12223455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12238555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12253655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12268755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12283855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12298955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12314055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12329155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12344255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12359355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12374455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12389555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12404655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12419755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12434855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12449955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12465055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12480155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12495255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12510355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12525455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12540555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12555655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12570755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12585855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12600955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12616055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12631155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12646255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12661355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12676455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12691555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12706655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12721755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12736855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12751955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12767055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12782155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12797255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12812355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12827455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12842555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12857655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12872755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12887855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12902955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12918055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12933155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12948255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12963355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12978455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 12993555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13008655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13023755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13038855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13053955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13069055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13084155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13099255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13114355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13129455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13144555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13159655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13174755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13189855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13204955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13220055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13235155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13250255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13265355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13280455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13295555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13310655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13325755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13340855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13355955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13371055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13386155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13401255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13416355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13431455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13446555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13461655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13476755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13491855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13506955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13522055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13537155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13552255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13567355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13582455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13597555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13612655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13627755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13642855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13657955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13673055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13688155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13703255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13718355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13733455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13748555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13763655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13778755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13793855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13808955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13824055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13839155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13854255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13869355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13884455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13899555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13914655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13929755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13944855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13959955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13975055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 13990155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14005255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14020355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14035455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14050555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14065655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14080755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14095855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14110955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14126055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14141155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14156255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14171355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14186455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14201555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14216655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14231755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14246855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14261955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14277055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14292155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14307255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14322355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14337455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14352555 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14367655 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14382755 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14397855 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14412955 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14428055 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14443155 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14458255 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14473355 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14488455 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14503555 ns  Iteration: 1
+Note: Epoch 40: Train Accuracy = 6.250000e+01%
+Time: 14505805 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Error: Update pass timeout!
+Time: 14520895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14535995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14551095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14566195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14581295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14596395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14611495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14626595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14641695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14656795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14671895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14686995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14702095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14717195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14732295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14747395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14762495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14777595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14792695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14807795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14822895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14837995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14853095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14868195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14883295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14898395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14913495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14928595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14943695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14958795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14973895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 14988995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15004095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15019195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15034295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15049395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15064495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15079595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15094695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15109795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15124895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15139995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15155095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15170195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15185295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15200395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15215495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15230595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15245695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15260795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15275895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15290995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15306095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15321195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15336295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15351395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15366495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15381595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15396695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15411795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15426895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15441995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15457095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15472195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15487295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15502395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15517495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15532595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15547695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15562795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15577895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15592995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15608095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15623195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15638295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15653395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15668495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15683595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15698695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15713795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15728895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15743995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15759095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15774195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15789295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15804395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15819495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15834595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15849695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15864795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15879895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15894995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15910095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15925195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15940295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15955395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15970495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 15985595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16000695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16015795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16030895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16045995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16061095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16076195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16091295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16106395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16121495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16136595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16151695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16166795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16181895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16196995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16212095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16227195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16242295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16257395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16272495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16287595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16302695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16317795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16332895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16347995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16363095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16378195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16393295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16408395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16423495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16438595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16453695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16468795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16483895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16498995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16514095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16529195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16544295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16559395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16574495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16589595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16604695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16619795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16634895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16649995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16665095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16680195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16695295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16710395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16725495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16740595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16755695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16770795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16785895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16800995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16816095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16831195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16846295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16861395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16876495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16891595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16906695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16921795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16936895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16951995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16967095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16982195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 16997295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17012395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17027495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17042595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17057695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17072795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17087895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17102995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17118095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17133195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17148295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17163395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17178495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17193595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17208695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17223795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17238895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17253995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17269095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17284195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17299295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17314395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17329495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17344595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17359695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17374795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17389895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17404995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17420095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17435195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17450295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17465395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17480495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17495595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17510695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17525795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17540895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17555995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17571095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17586195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17601295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17616395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17631495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17646595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17661695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17676795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17691895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17706995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17722095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17737195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17752295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17767395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17782495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17797595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17812695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17827795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17842895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17857995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17873095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17888195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17903295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17918395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17933495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17948595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17963695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17978795 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 17993895 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18008995 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18024095 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18039195 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18054295 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18069395 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18084495 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18099595 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18114695 ns  Iteration: 1
+Error: Update pass timeout!
+Time: 18129795 ns  Iteration: 1
+Note: Epoch 50: Train Accuracy = 6.250000e+01%
+Time: 18132045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 18132045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note:   Final Results
+Time: 18132045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 18132045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Training Accuracy: 6.250000e+01%
+Time: 18134365 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: Test Accuracy: 0.000000e+00%
+Time: 18135045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Warning: *** NEEDS IMPROVEMENT: Accuracy below 90% ***
+Time: 18135045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+Note: ========================================
+Time: 18135045 ns  Iteration: 1  Process: /tb_neural_network_4841_iris/test_proc  File: /home/arunupscee/Desktop/vhdl-ai-helper/neuron_new/neuron_new.srcs/sim_1/new/tb_neural_network_4841_iris.vhd
+run: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:07 . Memory (MB): peak = 1398.215 ; gain = 0.000 ; free physical = 270 ; free virtual = 12369
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Dec  5 19:48:38 2025...
